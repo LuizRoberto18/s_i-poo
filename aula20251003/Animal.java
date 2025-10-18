@@ -1,6 +1,6 @@
 package aula20251003;
 
-public class Animal {
+public abstract class Animal {
     private String nome;
     private int idade;
 
@@ -20,7 +20,7 @@ public class Animal {
         return this.idade;
     }
 
-    public void cagar() {
+    public abstract void cagar() {
         System.out.println(getNome() +" está cagando");
     }
 
